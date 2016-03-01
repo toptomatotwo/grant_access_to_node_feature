@@ -1,0 +1,10 @@
+name = Grant access to node on order completion
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = content_access_rules
+dependencies[] = entity
+dependencies[] = rules
+features[features_api][] = api:2
+features[rules_config][] = rules_grant_access_to_node_if_product_points_to_one
+features[rules_config][] = rules_grant_access_to_node_on_order_completion
